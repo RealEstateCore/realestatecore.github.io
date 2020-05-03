@@ -8,7 +8,7 @@ In addition to the ontology itself, the RealEstateCore Consortium also hosts the
 
 ## Software
 
-* [OWL2OAS](/owl2oas/) -- This is a converter for translating 
+* [OWL2OAS](/OWL2OAS/) -- This is a converter for translating 
 OWL ontologies into OpenAPI Specification documents. 
 OpenAPI Specification is a standard for describing 
 REST endpoints and operations. This tool generates 
@@ -36,7 +36,7 @@ messages.
 
 ## Documents
 
-* [Procurement documents](https://github.com/RealEstateCore/ProcurementDocuments/) -- 
+* [Procurement documents](https://github.com/RealEstateCore/ProcurementDocuments) -- 
 This repository contains documentation that supports real estate holder 
 procurement of new buildings that speak RealEstateCore from the outset. 
 Presently this documentation is only availabile in Swedish, but we are 
