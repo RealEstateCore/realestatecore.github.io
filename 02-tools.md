@@ -4,7 +4,7 @@ title: Tools
 permalink: /tools/
 ---
 
-In addition to the ontology itself, the RealEstateCore Consortium also hosts the development of several tools and process description documents that support the adoption and utilization of REC and other ontologies.
+In addition to the ontology itself, the RealEstateCore Consortium also hosts the development of several software tools, configuration files, and documents that support the adoption and utilization of REC and other ontologies.
 
 ## Software
 
@@ -26,6 +26,13 @@ enabling linked data generation from existing Excel-based
 tools and workflows. This tool can be used for onboarding 
 buildings onto RealEstateCore systems by translating 
 existing taglists or other relational data structures.
+
+## Configurations
+
+* [Home Assistant Configurations](https://github.com/RealEstateCore/HomeAssistantConfigs) --
+This repository hosts configuration files for the popular [Home Assistant](https://www.home-assistant.io)
+open source home automation platform, enabling Home Assistant to emit RealEstateCore-formatted 
+messages.
 
 ## Documents
 
