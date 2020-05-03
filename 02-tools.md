@@ -4,7 +4,9 @@ title: Tools
 permalink: /tools/
 ---
 
-In addition to the ontology itself, the RealEstateCore Consortium also hosts the development of several software tools that support the adoption and utilization of REC and other ontologies.
+In addition to the ontology itself, the RealEstateCore Consortium also hosts the development of several tools and process description documents that support the adoption and utilization of REC and other ontologies.
+
+## Software
 
 * [OWL2OAS](/owl2oas/) -- This is a converter for translating 
 OWL ontologies into OpenAPI Specification documents. 
@@ -17,4 +19,18 @@ data properties that they are linked to in the
 ontology (either via rdfs:domain/rdfs:range, or 
 via property restrictions). OWL2OAS is used to 
 generate the official RealEstateCore REST API. 
-* ExcelRDF
+* [ExcelRDF](/ExcelRDF/) -- An Excel plugin that provides light-weight 
+translation from OWL ontology to XLS skeleton, and 
+from a filled-out version of that XLS skeleton to RDF -- 
+enabling linked data generation from existing Excel-based 
+tools and workflows. This tool can be used for onboarding 
+buildings onto RealEstateCore systems by translating 
+existing taglists or other relational data structures.
+
+## Documents
+
+* [Procurement documents](https://github.com/RealEstateCore/ProcurementDocuments/) -- 
+This repository contains documentation that supports real estate holder 
+procurement of new buildings that speak RealEstateCore from the outset. 
+Presently this documentation is only availabile in Swedish, but we are 
+working to translate it to English.
