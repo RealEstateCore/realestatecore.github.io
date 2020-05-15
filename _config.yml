@@ -23,6 +23,13 @@ url: "https://dev.realestatecore.io" # the base hostname & protocol for your sit
 twitter_username: RecOntology
 github_username:  RealEstateCore
 
+header_pages:
+  - ontology.md
+  - tools.md
+  - apis.md
+  - publications.md
+  - tutorials.md
+
 # Build settings
 markdown: kramdown
 theme: minima
