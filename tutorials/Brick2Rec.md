@@ -10,7 +10,7 @@ Data that is expressed using the [Brick Schema](https://brickschema.org) can be 
 
 1. Start a new ontology file in Protégé (the namespace doesn't matter).
 2. From the Ontology Imports GUI, select to import a new ontology (Figure 1), and import the dataset you want to translate. Navigate to the data file file on disk or enter a URI to download the dataset from the web.
-3. Repeat this step import the [Brick ontology](https://raw.githubusercontent.com/BrickSchema/Brick/master/Brick.ttl) and the [Brick to REC alignments](https://raw.githubusercontent.com/RealEstateCore/rec/master/ontology/alignments/BrickSchema.rdf) -- as before, either download the files first and load them from disk, or load them directly from the web.
+3. Repeat this step to import the [Brick ontology](https://raw.githubusercontent.com/BrickSchema/Brick/master/Brick.ttl) and the [Brick to REC alignments](https://raw.githubusercontent.com/RealEstateCore/rec/master/ontology/alignments/BrickSchema.rdf) -- as before, either download the files first and load them from disk, or load them directly from the web.
 4. At this stage your Ontology Imports GUI should look like Figure 2.
 5. From the `Reasoner` menu in Protégé, choose `Start reasoner`. Wait until the reasoner has finished executing. Note that even after the reasoner GUI closes, Protégé can be very sluggish for several minutes, if the dataset is non-trivial in size. Wait until the GUI becomes responsive again.
 6. At this stage your data should be expressed using both Brick and REC semantics (Figure 3). If you are simply checking a single entity, this may be enough. If you wish to export the data for further processing, proceed with the next steps.
