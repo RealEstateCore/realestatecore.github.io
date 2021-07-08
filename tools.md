@@ -18,7 +18,10 @@ schemas for those classes based on the object and
 data properties that they are linked to in the 
 ontology (either via rdfs:domain/rdfs:range, or 
 via property restrictions). OWL2OAS is used to 
-generate the official RealEstateCore REST API. 
+generate the official RealEstateCore REST API.
+* [OWL2DTDL](https://github.com/Azure/opendigitaltwins-tools) -- A converter for translating 
+OWL ontologies into DTDL (Digital Twin Definition Language) interface definitions, for use, e.g., 
+with Microsoft Azure Digital Twins. This tool is used to generate the [official DTDL version of RealEstateCore](https://github.com/Azure/opendigitaltwins-building).
 * [ExcelRDF](/ExcelRDF/) -- An Excel plugin that provides light-weight 
 translation from OWL ontology to XLS skeleton, and 
 from a filled-out version of that XLS skeleton to RDF -- 
