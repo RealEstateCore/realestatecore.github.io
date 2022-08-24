@@ -1,9 +1,3 @@
----
-layout: default
----
-
-![RealEstateCore Icon](images/REC-icon.png)
-
 **Welcome to the RealEstateCore Developer Pages!**
 
 This site contains documentation, links, tutorials, etc. aimed at developers working to understand and deploy RealEstateCore, see the links at the top of the page.

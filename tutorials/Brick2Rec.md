@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: Translating Brick-coded data to RealEstateCore
 permalink: /tutorials/Brick2Rec
 ---
