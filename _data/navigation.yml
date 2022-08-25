@@ -1,37 +1,49 @@
 # main links
 main:
+  - title: "Docs"
+    url: /docs/
   - title: "Ontology"
     url: /ontology/
-  - title: "Tools"
-    url: /tools/
-  - title: "Sample Posts"
-    url: /year-archive/
-  - title: "Sample Collections"
-    url: /collection-archive/
-  - title: "Sitemap"
-    url: /sitemap/
+  - title: "Resources"
+    url: /resources/
+  - title: "Community"
+    url: /community/
 
-sidebar:
-  - title: Getting Started
+docs:
+  - title: Introduction
     children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
-      - title: "Structure"
+      - title: "What is an ontology?"
+        url: /docs/what-is-an-ontology/
+      - title: "RealEstateCore Structure"
         url: /docs/structure/
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
+      - title: "DTDL or SHACL"
+        url: /docs/DTDL-or-SHACL/
+      - title: "Software Platforms"
+        url: /docs/platforms/
 
-  - title: Customization
+  - title: APIs
     children:
-      - title: "Configuration"
-        url: /docs/configuration/
-      - title: "Navigation"
-        url: /docs/navigation/
-      - title: "UI Text"
-        url: /docs/ui-text/
-      - title: "Authors"
-        url: /docs/authors/
-      - title: "Layouts"
-        url: /docs/layouts/
+      - title: "REST API"
+        url: /docs/API/REST/
+      - title: "Edge Messages"
+        url: /docs/API/Edge/
+
+  - title: Tools
+    children:
+      - title: "SHACL2DTDL"
+        url: /docs/tools/SHACL2DTDL/
+      - title: "SHACL2OAS"
+        url: /docs/tools/SHACL2OAS/
+      - title: "OWL2OAS"
+        url: /docs/tools/OWL2OAS/
+      - title: "OWL2DTDL"
+        url: /docs/tools/OWL2DTDL/
+      - title: "ExcelRDF"
+        url: /docs/tools/ExcelRDF/
+      - title: "DTDL Viewer"
+        url: /docs/tools/DTDLViewer/
+
+  - title: Guides
+    children:
+      - title: "TBD"
+        url: /docs/guides/TBD/

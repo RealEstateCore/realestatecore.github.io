@@ -1,6 +1,6 @@
 ---
 title: API:s
-permalink: /apis/
+permalink: /archive/apis/
 ---
 
 We have learned that a shared ontology is only part of the interoperability puzzle; in order for smart building interoperability to really take off, we also need shared API:s that allow exchange of data expressed using those shared ontologies. To that end we have standardized API:s for RealEstateCore-compliant systems. This page describes first how  RealEstateCore objects can be serialized to be transmitted over the wire; and thereafter, describes underlying transport mechanisms for such messages (our REST-based and streaming data-based API:s).

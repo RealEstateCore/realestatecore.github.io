@@ -1,6 +1,6 @@
 ---
 title: Ontology
-permalink: /ontology/
+permalink: /archive/ontology/
 ---
 
 ## The Building Knowledge Graph
