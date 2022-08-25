@@ -45,5 +45,15 @@ docs:
 
   - title: Guides
     children:
-      - title: "TBD"
-        url: /docs/guides/TBD/
+      - title: "Spatial modelling"
+        url: /docs/guides/spatial/
+      - title: "Sensor readings"
+        url: /docs/guides/sensor/
+      - title: "Asset modelling"
+        url: /docs/guides/assets/
+      - title: "HVAC modelling"
+        url: /docs/guides/hvac/
+      - title: "Energy metering"
+        url: /docs/guides/energy/
+      - title: "Occupancy detection"
+        url: /docs/guides/occupancy/

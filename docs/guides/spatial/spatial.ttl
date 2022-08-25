@@ -1,0 +1,31 @@
+# Namespaces
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rec: <https://w3id.org/rec#> .
+@prefix : <https://example.com#> .
+
+# Type declarations. Note: some rooms from illustration
+# ommited for brevity
+:CostelloHeights    rdf:type        rec:Building        .
+:LowerFloor         rdf:type        rec:Level           .
+:UpperFloor         rdf:type        rec:Level           .
+:110                rdf:type        rec:Room            .
+:111                rdf:type        rec:Room            .
+:120                rdf:type        rec:Room            .
+:123                rdf:type        rec:Room            .
+
+# Spatial topology
+:CostelloHeights    rec:hasPart     :LowerFloor   .
+:CostelloHeights    rec:hasPart     :UpperFloor   .
+:LowerFloor         rec:hasPart     :110   .
+:LowerFloor         rec:hasPart     :111   .
+:UpperFloor         rec:hasPart     :120   .
+:UpperFloor         rec:hasPart     :123   .
+
+# Floor numbers
+:LowerFloor         rec:levelNumber 1                   .
+:UpperFloor         rec:levelNumber 2                   .
+
+# Geometries. Note: full polygons ommited for brevity
+:CostelloHeights    rec:geometry    "[[14.16, 57.77], ... , [14.16, 57.77]]" .
+:LowerFloor         rec:geometry    "[[0.5, 0.5], ... , [15.5, 15.5]]" .
+:120                rec:geometry    "[[4.0, 2.5], ... , [4.0, 2.5]]" .
