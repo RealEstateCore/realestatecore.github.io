@@ -34,12 +34,8 @@ docs:
         url: /docs/tools/SHACL2DTDL/
       - title: "SHACL2OAS"
         url: /docs/tools/SHACL2OAS/
-      - title: "OWL2OAS"
-        url: /docs/tools/OWL2OAS/
-      - title: "OWL2DTDL"
-        url: /docs/tools/OWL2DTDL/
-      - title: "ExcelRDF"
-        url: /docs/tools/ExcelRDF/
+      - title: "SHACL2MD"
+        url: /docs/tools/SHACL2MD/
       - title: "DTDL Viewer"
         url: /docs/tools/DTDLViewer/
 
