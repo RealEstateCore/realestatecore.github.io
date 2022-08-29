@@ -2,15 +2,15 @@
 title: RealEstateCore Structure
 ---
 
-**TODO: FIX AN IMAGE**
+![Graphical representation of REC4 structure](rec4structure.png)
 
-The figure above illustrates the overall REC structure and key design points, which are described in greater detail below. The [browsable reference documentation](/ontology/) contains a list of all types and all of their properties. For concrete modelling examples, see our [Guides](/docs/guides/).
+The figure above illustrates the overall REC structure and key design points, which are described in greater detail below. Note that this an introductory subset of the REC constructs; the [browsable reference documentation](/ontology/) contains a list of all types and all of their properties. For concrete modelling examples, see our [Guides](/docs/guides/).
 
 RealEstateCore employs a set of design principles:
 
 * Parthood is described using the `hasPart` and `isPartOf` relationships. Instances of a type can only have other instances of the same type as parts; e.g., assets can only have assets as parts, spaces can only have spaces, and so forth. This provides a simple a consistent way for developers to navigate the building topology. To jump across these topologies (e.g., to indicate that an asset has a spatial location), other specific properties are used, see below.
-* Spatial location is described using `hasLocation` and `isLocationOf` relationships together with some `Space` instance.
-* Administrative parthood, i.e., membership in a `Collection`, is described using the relationships `includedIn` and `includes`.
+* Spatial location is described using `locatedIn` and `isLocationOf` relationships together with some `Space` instance.
+* Administrative parthood, i.e., membership in a `Collection`, is described using the outgoing `Collection` relationship `includes`.
 
 ## Spaces
 
