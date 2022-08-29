@@ -1,7 +1,6 @@
 ---
-layout: page
 title: Publications
-permalink: /publications/
+permalink: /archive/publications/
 ---
 
 If have been using RealEstateCore as part of your research, please cite us. The canonical RealEstateCore paper is:

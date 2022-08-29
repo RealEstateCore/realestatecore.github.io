@@ -1,0 +1,227 @@
+{
+    "digitalTwinsFileInfo": {
+      "fileVersion": "1.0.0"
+    },
+    "digitalTwinsGraph": {
+      "digitalTwins": [
+        {
+          "$dtId": "CostelloHeights",
+          "$etag": "W/\"ee7f9ac5-cde8-482e-9f3f-de4b3da170f8\"",
+          "geometry": "[[14.16, 57.77], ... , [14.16, 57.77]]",
+          "area": {
+            "$metadata": {
+            }
+          },
+          "capacity": {
+            "$metadata": {
+            }
+          },
+          "$metadata": {
+            "$model": "dtmi:org:w3id:rec:Building;1"
+          }
+        },
+        {
+          "$dtId": "UpperFloor",
+          "$etag": "W/\"3d904969-d842-4bf0-b1f6-7ff6b687460c\"",
+          "levelNumber": 2,
+          "area": {
+            "$metadata": {
+            }
+          },
+          "capacity": {
+            "$metadata": {
+            }
+          },
+          "$metadata": {
+            "$model": "dtmi:org:w3id:rec:Level;1"
+          }
+        },
+        {
+          "$dtId": "LowerFloor",
+          "$etag": "W/\"459c63ee-04d7-4031-91fb-e50e64a5d8b4\"",
+          "levelNumber": 1,
+          "geometry": "[[0.5, 0.5], ... , [15.5, 15.5]]",
+          "area": {
+            "$metadata": {
+            }
+          },
+          "capacity": {
+            "$metadata": {
+            }
+          },
+          "$metadata": {
+            "$model": "dtmi:org:w3id:rec:Level;1"
+          }
+        },
+        {
+          "$dtId": "120",
+          "$etag": "W/\"d1db10f1-a098-4c5d-8e2f-092e8c11f418\"",
+          "geometry": "[[4.0, 2.5], ... , [4.0, 2.5]]",
+          "area": {
+            "$metadata": {
+            }
+          },
+          "capacity": {
+            "$metadata": {
+            }
+          },
+          "$metadata": {
+            "$model": "dtmi:org:w3id:rec:Room;1"
+          }
+        },
+        {
+          "$dtId": "211",
+          "$etag": "W/\"a6fd1495-f58e-4591-99fd-9bf7eacb92c4\"",
+          "area": {
+            "$metadata": {
+            }
+          },
+          "capacity": {
+            "$metadata": {
+            }
+          },
+          "$metadata": {
+            "$model": "dtmi:org:w3id:rec:Room;1"
+          }
+        },
+        {
+          "$dtId": "211_Tmp",
+          "$etag": "W/\"b58fb532-0d8f-493f-9ac6-f3577a1780ee\"",
+          "lastKnownValue": {
+            "timestamp": "2022-08-29T15:55:29",
+            "value": "20.3"
+          },
+          "$metadata": {
+            "$model": "dtmi:org:brickschema:schema:Brick:Temperature_Sensor;1"
+          }
+        },
+        {
+          "$dtId": "120_Tmp",
+          "$etag": "W/\"a5d93531-3d62-46ac-ae72-b775d5866a21\"",
+          "lastKnownValue": {
+            "timestamp": "2022-08-29T15:54:11",
+            "value": "19.5"
+          },
+          "$metadata": {
+            "$model": "dtmi:org:brickschema:schema:Brick:Temperature_Sensor;1"
+          }
+        },
+        {
+          "$dtId": "211_Mtn",
+          "$etag": "W/\"f621f1a9-d99c-4a6d-97c1-4ffc025805ab\"",
+          "lastKnownValue": {
+            "timestamp": "2022-08-29T15:55:46",
+            "value": "true"
+          },
+          "$metadata": {
+            "$model": "dtmi:org:brickschema:schema:Brick:Motion_Sensor;1"
+          }
+        },
+        {
+          "$dtId": "120_Mtn",
+          "$etag": "W/\"e399e478-95ad-4d91-af56-9b1b4542213b\"",
+          "lastKnownValue": {
+            "timestamp": "2022-08-29T15:54:36",
+            "value": "false"
+          },
+          "$metadata": {
+            "$model": "dtmi:org:brickschema:schema:Brick:Motion_Sensor;1"
+          }
+        },
+        {
+          "$dtId": "120_Illum",
+          "$etag": "W/\"700b90d2-a97f-44ad-b33a-41629f895c41\"",
+          "lastKnownValue": {
+            "timestamp": "2022-08-29T15:55:11",
+            "value": "30"
+          },
+          "$metadata": {
+            "$model": "dtmi:org:brickschema:schema:Brick:Illuminance_Sensor;1"
+          }
+        },
+        {
+          "$dtId": "211_Illum",
+          "$etag": "W/\"83241a33-8e50-47b9-90fb-918d656337f7\"",
+          "lastKnownValue": {
+            "timestamp": "2022-08-29T15:55:57",
+            "value": "183"
+          },
+          "$metadata": {
+            "$model": "dtmi:org:brickschema:schema:Brick:Illuminance_Sensor;1"
+          }
+        }
+      ],
+      "relationships": [
+        {
+          "$relationshipId": "6fea7ce8-1827-4d6f-8773-dc42ffd124b5",
+          "$sourceId": "CostelloHeights",
+          "$targetId": "UpperFloor",
+          "$relationshipName": "hasPart",
+          "$etag": "W/\"fbbb0925-b5a2-4221-ad4e-4eb45e6311ef\""
+        },
+        {
+          "$relationshipId": "5451cb07-4a2c-4b0e-b2f8-a81f777e85c6",
+          "$sourceId": "CostelloHeights",
+          "$targetId": "LowerFloor",
+          "$relationshipName": "hasPart",
+          "$etag": "W/\"99b9f7b6-a150-4923-952f-f08f14bf08be\""
+        },
+        {
+          "$relationshipId": "7f948a23-c9f4-4732-856b-d4737561df06",
+          "$sourceId": "UpperFloor",
+          "$targetId": "211",
+          "$relationshipName": "hasPart",
+          "$etag": "W/\"986ec9e7-6a4b-4af8-a9b3-ae9492131eac\""
+        },
+        {
+          "$relationshipId": "333444db-94d6-4ef1-a313-f4763229c5e9",
+          "$sourceId": "120",
+          "$targetId": "120_Tmp",
+          "$relationshipName": "hasPoint",
+          "$etag": "W/\"8cd3f78e-0eae-404f-8746-81f35c1a7cc5\""
+        },
+        {
+          "$relationshipId": "51131891-217c-4601-a327-11baeca22599",
+          "$sourceId": "120",
+          "$targetId": "120_Mtn",
+          "$relationshipName": "hasPoint",
+          "$etag": "W/\"2624d58a-a00f-48a2-9cdb-f01f502cdae0\""
+        },
+        {
+          "$relationshipId": "c3aa185c-47a7-47dd-92e1-adee4540ef27",
+          "$sourceId": "120",
+          "$targetId": "120_Illum",
+          "$relationshipName": "hasPoint",
+          "$etag": "W/\"8058b20e-58c4-4422-b1ba-b3bcb1d4bdd3\""
+        },
+        {
+          "$relationshipId": "ecd6ee86-9a5a-4622-b49b-c7f1152fd9b2",
+          "$sourceId": "LowerFloor",
+          "$targetId": "120",
+          "$relationshipName": "hasPart",
+          "$etag": "W/\"c40a3d21-422a-4266-adef-d227e91a5b86\""
+        },
+        {
+          "$relationshipId": "37a16292-d4e9-4d1c-b27d-dd0324d63f9b",
+          "$sourceId": "211",
+          "$targetId": "211_Tmp",
+          "$relationshipName": "hasPoint",
+          "$etag": "W/\"4632718c-43ec-4678-9b8d-77972396b364\""
+        },
+        {
+          "$relationshipId": "869499a5-d2e9-461f-8b2e-bada632146b0",
+          "$sourceId": "211",
+          "$targetId": "211_Mtn",
+          "$relationshipName": "hasPoint",
+          "$etag": "W/\"144b35a3-c616-4d30-980a-7a28a58d255b\""
+        },
+        {
+          "$relationshipId": "f6617a73-d14e-4cb2-8d78-5cd13837bc3c",
+          "$sourceId": "211",
+          "$targetId": "211_Illum",
+          "$relationshipName": "hasPoint",
+          "$etag": "W/\"9d7ef9d2-6157-49c0-a3f5-168ae470ae0b\""
+        }
+      ]
+    }
+  }

@@ -1,0 +1,61 @@
+# Namespaces
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rec: <https://w3id.org/rec#> .
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix : <https://example.com#> .
+
+# Type declarations. Note: some rooms from illustration
+# ommited for brevity
+:CostelloHeights    rdf:type        rec:Building        .
+:LowerFloor         rdf:type        rec:Level           .
+:UpperFloor         rdf:type        rec:Level           .
+:120                rdf:type        rec:Room            .
+:211                rdf:type        rec:Room            .
+
+# Sensors
+:120_Tmp            rdf:type        brick:Temperature_Sensor    .
+:120_Mtn            rdf:type        brick:Motion_Sensor         .
+:120_Illum          rdf:type        brick:Illuminance_Sensor    .
+:211_Tmp            rdf:type        brick:Temperature_Sensor    .
+:211_Mtn            rdf:type        brick:Motion_Sensor         .
+:211_Illum          rdf:type        brick:Illuminance_Sensor    .
+
+# Spatial topology
+:CostelloHeights    rec:hasPart     :LowerFloor     .
+:CostelloHeights    rec:hasPart     :UpperFloor     .
+:LowerFloor         rec:hasPart     :120            .
+:UpperFloor         rec:hasPart     :211            .
+
+# Sensor placement
+:120                brick:hasPoint      :120_Tmp      .
+:120                brick:hasPoint      :120_Mtn      .
+:120                brick:hasPoint      :120_Illum    .
+:211                brick:hasPoint      :211_Tmp      .
+:211                brick:hasPoint      :211_Mtn      .
+:211                brick:hasPoint      :211_Illum    .
+
+# Values
+:120_Tmp            brick:lastKnownValue [
+    brick:value         "19.5";
+    brick:timestamp     "2022-08-29T15:11:00Z"
+] .
+:120_Mtn            brick:lastKnownValue [
+    brick:value         "false";
+    brick:timestamp     "2022-08-29T15:11:00Z"
+] .
+:120_Illum            brick:lastKnownValue [
+    brick:value         "30";
+    brick:timestamp     "2022-08-29T15:11:00Z"
+] .
+:211_Tmp            brick:lastKnownValue [
+    brick:value         "20.3";
+    brick:timestamp     "2022-08-29T15:11:30Z"
+] .
+:211_Mtn            brick:lastKnownValue [
+    brick:value         "true";
+    brick:timestamp     "2022-08-29T15:11:30Z"
+] .
+:211_Illum            brick:lastKnownValue [
+    brick:value         "183";
+    brick:timestamp     "2022-08-29T15:11:30Z"
+] .

@@ -1,0 +1,56 @@
+# main links
+main:
+  - title: "Docs"
+    url: /docs/
+  - title: "Ontology"
+    url: /ontology/
+  - title: "Resources"
+    url: /resources/
+  - title: "Community"
+    url: /community/
+
+docs:
+  - title: Introduction
+    children:
+      - title: "What is an ontology?"
+        url: /docs/what-is-an-ontology/
+      - title: "RealEstateCore Structure"
+        url: /docs/structure/
+      - title: "DTDL or SHACL"
+        url: /docs/DTDL-or-SHACL/
+      - title: "Software Platforms"
+        url: /docs/platforms/
+
+  - title: APIs
+    children:
+      - title: "REST API"
+        url: /docs/API/REST/
+      - title: "Edge Messages"
+        url: /docs/API/Edge/
+
+  - title: Tools
+    children:
+      - title: "SHACL2DTDL"
+        url: /docs/tools/SHACL2DTDL/
+      - title: "SHACL2OAS"
+        url: /docs/tools/SHACL2OAS/
+      - title: "SHACL2MD"
+        url: /docs/tools/SHACL2MD/
+      - title: "DTDL Viewer"
+        url: /docs/tools/DTDLViewer/
+
+  - title: Guides
+    url: /docs/guides/
+    children:
+      - title: "Spatial modelling"
+        url: /docs/guides/spatial/
+      - title: "Sensor readings"
+        url: /docs/guides/sensor/
+      - title: "Asset modelling"
+        url: /docs/guides/assets/
+      - title: "HVAC modelling"
+        url: /docs/guides/hvac/
+      - title: "Energy metering"
+        url: /docs/guides/energy/
+      - title: "Occupancy detection"
+        url: /docs/guides/occupancy/

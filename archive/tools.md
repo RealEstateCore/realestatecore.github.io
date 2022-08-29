@@ -1,7 +1,6 @@
 ---
-layout: page
 title: Tools
-permalink: /tools/
+permalink: /archive/tools/
 ---
 
 In addition to the ontology itself, the RealEstateCore Consortium also hosts the development of several software tools, configuration files, and documents that support the adoption and utilization of REC and other ontologies.
