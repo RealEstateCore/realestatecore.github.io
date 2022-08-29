@@ -16,6 +16,7 @@ The human, group, or machine that consumes or acts upon an object or data. This 
 ---
 
 ## Relationships
+
 |Name|Display name|Description|Multiplicity|Target|Properties|Writable|
 |-|-|-|-|-|-|-|
 |isMemberOf|**en**: is member of|**en**: Indicates membership in an organization. Note that componency (e.g., departments of a corporation) are expressed using the more generic Organization.isPartOf property.|0-Infinity|[Organization](Organization/Organization.md)||True|
@@ -23,6 +24,7 @@ The human, group, or machine that consumes or acts upon an object or data. This 
 ---
 
 ## Properties
+
 |Name|Display name|Description|Schema|Writable|
 |-|-|-|-|-|
 |customTags|**en**: Custom Tags||map (string->boolean)|True|

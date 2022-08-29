@@ -17,6 +17,7 @@ An administrative grouping of entities that are adressed and treated as a unit f
 ---
 
 ## Relationships
+
 |Name|Display name|Description|Multiplicity|Target|Properties|Writable|
 |-|-|-|-|-|-|-|
 |documentation|**en**: documentation||0-Infinity|[Document](../Information/Document/Document.md)||True|
@@ -24,6 +25,7 @@ An administrative grouping of entities that are adressed and treated as a unit f
 ---
 
 ## Properties
+
 |Name|Display name|Description|Schema|Writable|
 |-|-|-|-|-|
 |customTags|**en**: Custom Tags||map (string->boolean)|True|

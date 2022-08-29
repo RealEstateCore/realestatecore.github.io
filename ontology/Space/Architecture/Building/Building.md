@@ -19,6 +19,7 @@ A confined building structure.
 ---
 
 ## Relationships
+
 ### Inherited Relationships
 * **[Architecture](../Architecture.md):** address, adjacentElement, architectedBy, constructedBy, containsElement, documentation, hasPoint, intersectingElement, isFedBy, operatedBy, ownedBy
 * **[Space](../../Space.md):** hasPart, isLocationOf, isPartOf
@@ -26,6 +27,7 @@ A confined building structure.
 ---
 
 ## Properties
+
 ### Inherited Properties
 * **[Space](../../Space.md):** customTags, externalIds, geometry, name
 

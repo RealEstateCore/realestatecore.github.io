@@ -17,6 +17,7 @@ A temporally indexed entity, e.g., an observation, a lease, a construction proje
 ---
 
 ## Properties
+
 |Name|Display name|Description|Schema|Writable|
 |-|-|-|-|-|
 |customTags|**en**: Custom Tags||map (string->boolean)|True|

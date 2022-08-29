@@ -7,6 +7,7 @@
 ---
 
 ## Relationships
+
 ### Inherited Relationships
 * **[Organization](Organization.md):** hasMember, hasPart, isPartOf
 * **[Agent](../Agent.md):** isMemberOf
@@ -14,6 +15,7 @@
 ---
 
 ## Properties
+
 ### Inherited Properties
 * **[Organization](Organization.md):** logo
 * **[Agent](../Agent.md):** customTags, externalIds, name

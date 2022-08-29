@@ -10,6 +10,7 @@ A campus represents a collection of location entities. The constituent locations
 ---
 
 ## Relationships
+
 |Name|Display name|Description|Multiplicity|Target|Properties|Writable|
 |-|-|-|-|-|-|-|
 |includes|**en**: includes||0-Infinity|[Architecture](../../Space/Architecture/Architecture.md)||True|
@@ -19,6 +20,7 @@ A campus represents a collection of location entities. The constituent locations
 ---
 
 ## Properties
+
 ### Inherited Properties
 * **[Collection](../Collection.md):** customTags, externalIds, name
 

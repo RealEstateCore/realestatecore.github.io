@@ -1,7 +1,7 @@
 [Index](../../../Index.md) > [Space](../../Space.md) > [Architecture](../Architecture.md) > [Zone](#)
 # Zone
 
-A sub-zone within a building defined to support some technology and/or use, e.g., an HVAC zone, a security zone, etc.
+A sub-zone within or outside of a building defined to support some technology and/or use, e.g., an HVAC zone, a parking space, a security zone, etc.
 
 
 **Display name:** Zone<br />
@@ -13,11 +13,13 @@ A sub-zone within a building defined to support some technology and/or use, e.g.
 * [AccessControlZone](AccessControlZone.md)
 * [HVACZone](HVACZone.md)
 * [OccupancyZone](OccupancyZone.md)
+* [ParkingSpace](ParkingSpace.md)
 * [Workspace](Workspace.md)
 
 ---
 
 ## Relationships
+
 ### Inherited Relationships
 * **[Architecture](../Architecture.md):** address, adjacentElement, architectedBy, constructedBy, containsElement, documentation, hasPoint, intersectingElement, isFedBy, operatedBy, ownedBy
 * **[Space](../../Space.md):** hasPart, isLocationOf, isPartOf
@@ -25,6 +27,7 @@ A sub-zone within a building defined to support some technology and/or use, e.g.
 ---
 
 ## Properties
+
 ### Inherited Properties
 * **[Space](../../Space.md):** customTags, externalIds, geometry, name
 

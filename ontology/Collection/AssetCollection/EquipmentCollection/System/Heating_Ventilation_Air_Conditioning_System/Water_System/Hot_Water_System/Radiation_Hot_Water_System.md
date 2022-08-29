@@ -7,6 +7,7 @@
 ---
 
 ## Relationships
+
 ### Inherited Relationships
 * **[EquipmentCollection](../../../../EquipmentCollection.md):** feeds, hasPoint, includes
 * **[Collection](../../../../../../Collection.md):** documentation
@@ -14,6 +15,7 @@
 ---
 
 ## Properties
+
 |Name|Display name|Description|Schema|Writable|
 |-|-|-|-|-|
 |tags|**en**: Tags|**en**: Brick tags associated with this interface.|array (string)|False|

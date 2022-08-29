@@ -16,6 +16,7 @@ An organization of any sort (e.g., a business, association, project, consortium,
 ---
 
 ## Relationships
+
 |Name|Display name|Description|Multiplicity|Target|Properties|Writable|
 |-|-|-|-|-|-|-|
 |hasMember|**en**: has member|**en**: Indicates membership in an organization. Note that componency (e.g., departments of a corporation) are expressed using the more generic hasPart property.|0-Infinity|[Agent](../Agent.md)||True|
@@ -27,6 +28,7 @@ An organization of any sort (e.g., a business, association, project, consortium,
 ---
 
 ## Properties
+
 |Name|Display name|Description|Schema|Writable|
 |-|-|-|-|-|
 |logo|**en**: logo|**en**: URL link to an image/logo that represents the organization.|string|True|

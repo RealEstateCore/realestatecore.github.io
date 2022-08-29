@@ -10,6 +10,7 @@ A portfolio is a grouping of buildings, sites, apartments, campuses, etc. that s
 ---
 
 ## Relationships
+
 |Name|Display name|Description|Multiplicity|Target|Properties|Writable|
 |-|-|-|-|-|-|-|
 |includes|**en**: includes||0-Infinity|||True|
@@ -19,6 +20,7 @@ A portfolio is a grouping of buildings, sites, apartments, campuses, etc. that s
 ---
 
 ## Properties
+
 ### Inherited Properties
 * **[Collection](Collection.md):** customTags, externalIds, name
 

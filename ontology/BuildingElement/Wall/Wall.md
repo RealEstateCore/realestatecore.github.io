@@ -12,12 +12,14 @@
 ---
 
 ## Relationships
+
 ### Inherited Relationships
 * **[BuildingElement](../BuildingElement.md):** documentation, hasPart, isPartOf, locatedIn
 
 ---
 
 ## Properties
+
 ### Inherited Properties
 * **[BuildingElement](../BuildingElement.md):** customTags, externalIds, name
 

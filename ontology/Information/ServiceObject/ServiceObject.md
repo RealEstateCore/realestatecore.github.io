@@ -15,6 +15,7 @@
 ---
 
 ## Relationships
+
 |Name|Display name|Description|Multiplicity|Target|Properties|Writable|
 |-|-|-|-|-|-|-|
 |acknowledgedBy|**en**: acknowledged by||0-1|[Agent](../../Agent/Agent.md)||True|
@@ -26,6 +27,7 @@
 ---
 
 ## Properties
+
 |Name|Display name|Description|Schema|Writable|
 |-|-|-|-|-|
 |acknowledgedTime|**en**: acknowledged time||dateTime|True|

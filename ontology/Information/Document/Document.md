@@ -12,6 +12,7 @@
 ---
 
 ## Relationships
+
 |Name|Display name|Description|Multiplicity|Target|Properties|Writable|
 |-|-|-|-|-|-|-|
 |documentTopic|**en**: document topic||0-Infinity|||True|
@@ -20,6 +21,7 @@
 ---
 
 ## Properties
+
 ### Inherited Properties
 * **[Information](../Information.md):** customTags, externalIds, name
 

@@ -7,6 +7,7 @@
 ---
 
 ## Relationships
+
 ### Inherited Relationships
 * **[Equipment](../../../Equipment.md):** feeds, isFedBy
 * **[Asset](../../../../Asset.md):** commissionedBy, documentation, hasPart, hasPoint, installedBy, isPartOf, locatedIn, manufacturedBy, mountedOn, servicedBy
@@ -14,6 +15,7 @@
 ---
 
 ## Properties
+
 |Name|Display name|Description|Schema|Writable|
 |-|-|-|-|-|
 |tags|**en**: Tags|**en**: Brick tags associated with this interface.|array (string)|False|

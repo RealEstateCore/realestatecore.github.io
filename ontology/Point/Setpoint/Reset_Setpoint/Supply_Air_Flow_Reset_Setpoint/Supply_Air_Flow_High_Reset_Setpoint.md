@@ -7,12 +7,14 @@
 ---
 
 ## Relationships
+
 ### Inherited Relationships
 * **[Point](../../../Point.md):** isPointOf
 
 ---
 
 ## Properties
+
 |Name|Display name|Description|Schema|Writable|
 |-|-|-|-|-|
 |tags|**en**: Tags|**en**: Brick tags associated with this interface.|array (string)|False|

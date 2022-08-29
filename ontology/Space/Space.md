@@ -16,6 +16,7 @@ A contiguous part of the physical world that contains or can contain sub-spaces.
 ---
 
 ## Relationships
+
 |Name|Display name|Description|Multiplicity|Target|Properties|Writable|
 |-|-|-|-|-|-|-|
 |hasPart|**en**: has part||0-Infinity|[Space](#)||True|
@@ -25,6 +26,7 @@ A contiguous part of the physical world that contains or can contain sub-spaces.
 ---
 
 ## Properties
+
 |Name|Display name|Description|Schema|Writable|
 |-|-|-|-|-|
 |customTags|**en**: Custom Tags||map (string->boolean)|True|

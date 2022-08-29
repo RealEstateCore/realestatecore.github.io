@@ -13,6 +13,7 @@
 ---
 
 ## Relationships
+
 ### Inherited Relationships
 * **[Equipment](../../Equipment.md):** feeds, isFedBy
 * **[Asset](../../../Asset.md):** commissionedBy, documentation, hasPart, hasPoint, installedBy, isPartOf, locatedIn, manufacturedBy, mountedOn, servicedBy
@@ -20,6 +21,7 @@
 ---
 
 ## Properties
+
 |Name|Display name|Description|Schema|Writable|
 |-|-|-|-|-|
 |coolingCapacity|**en**: Cooling capacity||Microsoft.Azure.DigitalTwins.Parser.Models.DTObjectInfo|True|

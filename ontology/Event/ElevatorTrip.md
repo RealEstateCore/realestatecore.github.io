@@ -7,6 +7,7 @@
 ---
 
 ## Properties
+
 |Name|Display name|Description|Schema|Writable|
 |-|-|-|-|-|
 |currentLevel|**en**: current level||string|True|

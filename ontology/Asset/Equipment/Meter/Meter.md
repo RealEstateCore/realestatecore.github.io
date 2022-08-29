@@ -16,6 +16,7 @@
 ---
 
 ## Relationships
+
 |Name|Display name|Description|Multiplicity|Target|Properties|Writable|
 |-|-|-|-|-|-|-|
 |hasSubMeter|**en**: has sub-meter||0-Infinity|[Meter](#)||True|
@@ -27,6 +28,7 @@
 ---
 
 ## Properties
+
 |Name|Display name|Description|Schema|Writable|
 |-|-|-|-|-|
 |isMeteredBy|**en**: is metered by||string|True|

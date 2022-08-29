@@ -17,6 +17,7 @@
 ---
 
 ## Relationships
+
 |Name|Display name|Description|Multiplicity|Target|Properties|Writable|
 |-|-|-|-|-|-|-|
 |isPointOf|**en**: Is point of||0-Infinity|||True|
@@ -24,6 +25,7 @@
 ---
 
 ## Properties
+
 |Name|Display name|Description|Schema|Writable|
 |-|-|-|-|-|
 |aggregate|**en**: Aggregate||Microsoft.Azure.DigitalTwins.Parser.Models.DTObjectInfo|True|

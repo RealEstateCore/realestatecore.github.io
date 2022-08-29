@@ -7,6 +7,7 @@
 ---
 
 ## Relationships
+
 |Name|Display name|Description|Multiplicity|Target|Properties|Writable|
 |-|-|-|-|-|-|-|
 |includes|**en**: includes||0-Infinity|[Room](../../Space/Architecture/Room/Room.md)||True|
@@ -16,6 +17,7 @@
 ---
 
 ## Properties
+
 ### Inherited Properties
 * **[Collection](../Collection.md):** customTags, externalIds, name
 

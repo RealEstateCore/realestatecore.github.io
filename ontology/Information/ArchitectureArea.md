@@ -10,6 +10,7 @@ Describes business-relevant area measurements typically associated with architec
 ---
 
 ## Properties
+
 |Name|Display name|Description|Schema|Writable|
 |-|-|-|-|-|
 |grossArea|**en**: gross area||float|True|

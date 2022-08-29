@@ -12,6 +12,7 @@
 ---
 
 ## Relationships
+
 ### Inherited Relationships
 * **[Meter](../Meter.md):** hasSubMeter, isSubMeterOf
 * **[Equipment](../../Equipment.md):** feeds, isFedBy
@@ -20,6 +21,7 @@
 ---
 
 ## Properties
+
 ### Inherited Properties
 * **[Meter](../Meter.md):** isMeteredBy, isVirtualMeter, meters
 * **[Equipment](../../Equipment.md):** operationalStageCount

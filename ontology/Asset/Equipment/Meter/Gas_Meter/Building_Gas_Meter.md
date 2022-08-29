@@ -7,6 +7,7 @@
 ---
 
 ## Relationships
+
 ### Inherited Relationships
 * **[Meter](../Meter.md):** hasSubMeter, isSubMeterOf
 * **[Equipment](../../Equipment.md):** feeds, isFedBy
@@ -15,6 +16,7 @@
 ---
 
 ## Properties
+
 |Name|Display name|Description|Schema|Writable|
 |-|-|-|-|-|
 |tags|**en**: Tags|**en**: Brick tags associated with this interface.|array (string)|False|

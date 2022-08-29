@@ -10,12 +10,14 @@ A natural person (i.e., an individual human being).
 ---
 
 ## Relationships
+
 ### Inherited Relationships
 * **[Agent](Agent.md):** isMemberOf
 
 ---
 
 ## Properties
+
 |Name|Display name|Description|Schema|Writable|
 |-|-|-|-|-|
 |familyName|||string|True|

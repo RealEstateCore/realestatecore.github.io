@@ -7,6 +7,7 @@
 ---
 
 ## Relationships
+
 |Name|Display name|Description|Multiplicity|Target|Properties|Writable|
 |-|-|-|-|-|-|-|
 |targetPoint|**en**: target point|**en**: The brick:Point(s) (e.g., brick:Commands, brick:Setpoints, or brick:Parameters) that the actuation will target/execute.|0-Infinity|[Point](../../Point/Point.md)||True|
@@ -14,6 +15,7 @@
 ---
 
 ## Properties
+
 ### Inherited Properties
 * **[PointEvent](PointEvent.md):** payload
 * **[Event](../Event.md):** customTags, end, externalIds, name, start, timestamp

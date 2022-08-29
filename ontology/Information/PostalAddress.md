@@ -7,6 +7,7 @@
 ---
 
 ## Properties
+
 |Name|Display name|Description|Schema|Writable|
 |-|-|-|-|-|
 |addressLine1|**en**: address line 1||string|True|

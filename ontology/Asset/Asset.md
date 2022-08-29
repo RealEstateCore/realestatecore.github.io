@@ -17,6 +17,7 @@ Something which is placed inside of a building, but is not an integral part of t
 ---
 
 ## Relationships
+
 |Name|Display name|Description|Multiplicity|Target|Properties|Writable|
 |-|-|-|-|-|-|-|
 |commissionedBy|**en**: commissioned by||0-Infinity|[Agent](../Agent/Agent.md)||True|
@@ -33,6 +34,7 @@ Something which is placed inside of a building, but is not an integral part of t
 ---
 
 ## Properties
+
 |Name|Display name|Description|Schema|Writable|
 |-|-|-|-|-|
 |IPAddress|**en**: IP address||string|True|

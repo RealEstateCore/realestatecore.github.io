@@ -7,6 +7,7 @@
 ---
 
 ## Relationships
+
 |Name|Display name|Description|Multiplicity|Target|Properties|Writable|
 |-|-|-|-|-|-|-|
 |leaseOf|**en**: lease of|**en**: The object (e.g., property, equipment, etc) that this a lease of.|0-Infinity|||True|
@@ -17,6 +18,7 @@
 ---
 
 ## Properties
+
 ### Inherited Properties
 * **[Event](Event.md):** customTags, end, externalIds, name, start, timestamp
 

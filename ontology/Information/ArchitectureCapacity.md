@@ -10,6 +10,7 @@ Describes business-relevant capacity measurements typically associated with arch
 ---
 
 ## Properties
+
 |Name|Display name|Description|Schema|Writable|
 |-|-|-|-|-|
 |maxOccupancy|**en**: maximum occupancy|**en**: E.g., per Building Code|integer|True|

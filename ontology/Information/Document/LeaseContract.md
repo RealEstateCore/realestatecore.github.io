@@ -10,6 +10,7 @@ Formal document that identifies the Tenant and the leased asset or property; sta
 ---
 
 ## Relationships
+
 |Name|Display name|Description|Multiplicity|Target|Properties|Writable|
 |-|-|-|-|-|-|-|
 |regulates|**en**: regulates|**en**: Indicates the lease(s) that this contract regulates the conditions of.|0-Infinity|[Lease](../../Event/Lease.md)||True|
@@ -19,6 +20,7 @@ Formal document that identifies the Tenant and the leased asset or property; sta
 ---
 
 ## Properties
+
 ### Inherited Properties
 * **[Information](../Information.md):** customTags, externalIds, name
 
