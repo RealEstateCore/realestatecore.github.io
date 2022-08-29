@@ -8,30 +8,30 @@ Note that the onboarding of such a sensor system and the ingestion of data from 
 
 ## Types used
 
-* Point
-    * Sensor
-        * [Temperature_Sensor]()
-        * [Motion_Sensor]()
-        * [Illuminance_Sensor]()
-* Space
-    * Architecture
-        * [Building]()
-        * [Room]()
-        * [Level]()
+* [Point](/ontology/Point/Point)
+    * [Sensor](/ontology/Point/Sensor/Sensor)
+        * [Temperature_Sensor](/ontology/Point/Sensor/Temperature_Sensor/Temperature_Sensor)
+        * [Motion_Sensor](/ontology/Point/Sensor/Motion_Sensor/Motion_Sensor)
+        * [Illuminance_Sensor](/ontology/Point/Sensor/Illuminance_Sensor/Illuminance_Sensor)
+* [Space](/ontology/Space/Space)
+    * [Architecture](/ontology/Space/Architecture)
+        * [Building](/ontology/Space/Architecture/Building)
+        * [Level](/ontology/Space/Architecture/Level)
+        * [Room](/ontology/Space/Architecture/Room/Room)
 
 The *Space*, *Architecture*, *Point*, and *Sensor* types are not explicitly instantiated in the solution; they are included here as they define relationships and properties (see below) that are inherited by their subtypes and which are used.
 
 ## Relationships and Properties used
 
-* [Space]().hasPart
-* [Space]().hasPoint
+* [Space](/ontology/Space/Space).hasPart
+* [Space](/ontology/Space/Space).hasPoint
 
 This example simply adds Brick points to the spatial topology, using the *hasPoint* relationship. Each point is of a specific type, indicating what it measures. Note that points can be added to any spaces, not only rooms; so, e.g., computed points such as aggregations could be assigned directly to buildings.
 
 ### Properties
 
-* [Point]().lastKnownValue
-* [Point]().hasQuantity	(optional)
+* [Point](/ontology/Point/Point).lastKnownValue
+* [Point](/ontology/Point/Point).hasQuantity	(optional)
 
 *lastKnownValue* allows the digital twin to represent the most recently ingested reading from a *Sensor* (or payload sent to a *Command*). In most analytics scenarios, these values would be streamed into a time series database, either directly from the sensor framework, or after having been set on the digital twin node. *lastKnownValue* has a data schema consisting of a string (representing the sensor value) and a timestamp (representing when the sensor reading was made). 
 

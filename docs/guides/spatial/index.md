@@ -10,10 +10,10 @@ For the sake of this guide, we exemplify using a two-story building containing f
 ## Types used
 
 * [Space](/ontology/Space/Space)
-    * [Architecture](/ontology/Space/Architecture/)
-        * [Building](/ontology/Space/)
-        * [Level]()
-        * [Room]()
+    * [Architecture](/ontology/Space/Architecture)
+        * [Building](/ontology/Space/Architecture/Building)
+        * [Level](/ontology/Space/Architecture/Level)
+        * [Room](/ontology/Space/Architecture/Room/Room)
 
 The *Space* and *Architecture* types are not explicitly instantiated in the solution; they are included here as they define relationships (see below) that are inherited by their subtypes and which are used.
 
@@ -21,15 +21,15 @@ The *Space* and *Architecture* types are not explicitly instantiated in the solu
 
 ### Relationships
 
-* [Space]().hasPart
-* [Space]().isPartOf (optional)
+* [Space](/ontology/Space/Space).hasPart
+* [Space](/ontology/Space/Space).isPartOf (optional)
 
 In this example we are modelling the spatial topology from the parent (surrounding) space to the child (included) space, using the *hasPart* relationship. Most graph storage and query engines allow traversal of such links in either direction, but if for some reason it is important to explicitly model the inverse directionality (child to parent), *isPartOf* can be used instead, or as a complement. If both directions are defined simultanously, for consistency, make sure that any updates are applied to both. For the sake of brevity, in the illustration and code below, only one *isPartOf* link is displayed. 
 
 ### Properties
 
-* [Level]().levelNumber
-* [Space]().geometry
+* [Level](/ontology/Space/Architecture/Level).levelNumber
+* [Space](/ontology/Space/Space).geometry
 
 The *geometry* property is used to declare the actual geometry of the spaces in question. If spatial modelling is employed only for topological purposes (e.g., to cluster sensors or spaces that are part of the same floor, room, etc), then geometry may not always be needed; but if the graph is used to generate visualizations, maps, etc., then understanding not only the topology but the actual physical layout of the spaces is of course crucial.
 
