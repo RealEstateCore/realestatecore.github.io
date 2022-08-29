@@ -14,9 +14,9 @@ Note that the onboarding of such a sensor system and the ingestion of data from 
         * [Motion_Sensor](/ontology/Point/Sensor/Motion_Sensor/Motion_Sensor)
         * [Illuminance_Sensor](/ontology/Point/Sensor/Illuminance_Sensor/Illuminance_Sensor)
 * [Space](/ontology/Space/Space)
-    * [Architecture](/ontology/Space/Architecture)
-        * [Building](/ontology/Space/Architecture/Building)
-        * [Level](/ontology/Space/Architecture/Level)
+    * [Architecture](/ontology/Space/Architecture/Architecture)
+        * [Building](/ontology/Space/Architecture/Building/Building)
+        * [Level](/ontology/Space/Architecture/Level/Level)
         * [Room](/ontology/Space/Architecture/Room/Room)
 
 The *Space*, *Architecture*, *Point*, and *Sensor* types are not explicitly instantiated in the solution; they are included here as they define relationships and properties (see below) that are inherited by their subtypes and which are used.

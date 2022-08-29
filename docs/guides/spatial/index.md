@@ -10,9 +10,9 @@ For the sake of this guide, we exemplify using a two-story building containing f
 ## Types used
 
 * [Space](/ontology/Space/Space)
-    * [Architecture](/ontology/Space/Architecture)
-        * [Building](/ontology/Space/Architecture/Building)
-        * [Level](/ontology/Space/Architecture/Level)
+    * [Architecture](/ontology/Space/Architecture/Architecture)
+        * [Building](/ontology/Space/Architecture/Building/Building)
+        * [Level](/ontology/Space/Architecture/Level/Level)
         * [Room](/ontology/Space/Architecture/Room/Room)
 
 The *Space* and *Architecture* types are not explicitly instantiated in the solution; they are included here as they define relationships (see below) that are inherited by their subtypes and which are used.
@@ -28,7 +28,7 @@ In this example we are modelling the spatial topology from the parent (surroundi
 
 ### Properties
 
-* [Level](/ontology/Space/Architecture/Level).levelNumber
+* [Level](/ontology/Space/Architecture/Level/Level).levelNumber
 * [Space](/ontology/Space/Space).geometry
 
 The *geometry* property is used to declare the actual geometry of the spaces in question. If spatial modelling is employed only for topological purposes (e.g., to cluster sensors or spaces that are part of the same floor, room, etc), then geometry may not always be needed; but if the graph is used to generate visualizations, maps, etc., then understanding not only the topology but the actual physical layout of the spaces is of course crucial.
