@@ -1,5 +1,6 @@
 ---
 title: What is an ontology?
+permalink: /docs/
 ---
 
 RealEstateCore (REC) is an ontology, which can most easily be thought of as a standard and interoperable schema for building knowledge graphs; it defines the types of nodes you can have in your graph, the types of relations these nodes have with one another, and the types of data values associated with them. By using REC, you get two distinct advantages:

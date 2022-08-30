@@ -1,3 +1,0 @@
----
-title: RealEstateCore Documentation
----

@@ -28,4 +28,4 @@ The RealEstateCore ontology is released in the both [DTDL (Digital Twin Definiti
 
 ## Documents
 
-* [Procurement](https://github.com/RealEstateCore/ProcurementDocuments) -- This repository contains documentation that supports real estate holder procurement of new buildings that speak RealEstateCore from the outset. Presently this documentation is only availabile in Swedish, but we are working to translate it to English.
+* [Procurement](https://github.com/RealEstateCore/ProcurementDocuments) -- This repository contains documentation that supports real estate holder procurement of new buildings that speak RealEstateCore from the outset. Presently this documentation is availabile in Swedish, English, Dutch, and French.
