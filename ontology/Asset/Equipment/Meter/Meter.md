@@ -21,6 +21,7 @@
 |-|-|-|-|-|-|-|
 |hasSubMeter|**en**: has sub-meter||0-Infinity|[Meter](#)||True|
 |isSubMeterOf|**en**: is sub-meter of||0-Infinity|[Meter](#)||True|
+|meters|**en**: meters||0-Infinity|||True|
 ### Inherited Relationships
 * **[Equipment](../Equipment.md):** feeds, isFedBy
 * **[Asset](../../Asset.md):** commissionedBy, documentation, hasPart, hasPoint, installedBy, isPartOf, locatedIn, manufacturedBy, mountedOn, servicedBy
@@ -31,9 +32,7 @@
 
 |Name|Display name|Description|Schema|Writable|
 |-|-|-|-|-|
-|isMeteredBy|**en**: is metered by||string|True|
 |isVirtualMeter|**en**: is virtual meter||boolean|True|
-|meters|**en**: meters||string|True|
 ### Inherited Properties
 * **[Equipment](../Equipment.md):** operationalStageCount
 * **[Asset](../../Asset.md):** assetTag, commissioningDate, customTags, externalIds, geometry, initialCost, installationDate, IPAddress, MACAddress, maintenanceInterval, modelNumber, name, serialNumber, turnoverDate, weight
@@ -47,4 +46,6 @@
 ### Inherited
 * [Asset](../../Asset.md).hasPart
 * [Asset](../../Asset.md).isPartOf
-* [EquipmentCollection](../../../Collection/AssetCollection/EquipmentCollection/EquipmentCollection.md).includes
+* [EquipmentCollection](../../../Collection/EquipmentCollection.md).includes
+* [Loop](../../../Collection/Loop/Loop.md).includes
+* [System](../../../Collection/System/System.md).includes

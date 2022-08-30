@@ -37,6 +37,7 @@ A sub-zone within or outside of a building defined to support some technology an
 ### Inherited
 * [Asset](../../../Asset/Asset.md).locatedIn
 * [BuildingElement](../../../BuildingElement/BuildingElement.md).locatedIn
+* [Campus](../../../Collection/Campus.md).includes
+* [Premises](../../../Collection/Premises.md).includes
 * [Space](../../Space.md).hasPart
 * [Space](../../Space.md).isPartOf
-* [Campus](../../../Collection/SpaceCollection/Campus.md).includes

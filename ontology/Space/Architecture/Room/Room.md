@@ -76,10 +76,11 @@
 
 ## Target Of
 ### Direct
-* [Apartment](../../../Collection/SpaceCollection/Apartment.md).includes
+* [Apartment](../../../Collection/Apartment.md).includes
 ### Inherited
 * [Asset](../../../Asset/Asset.md).locatedIn
 * [BuildingElement](../../../BuildingElement/BuildingElement.md).locatedIn
+* [Campus](../../../Collection/Campus.md).includes
+* [Premises](../../../Collection/Premises.md).includes
 * [Space](../../Space.md).hasPart
 * [Space](../../Space.md).isPartOf
-* [Campus](../../../Collection/SpaceCollection/Campus.md).includes

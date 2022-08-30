@@ -28,6 +28,9 @@
 
 ## Target Of
 ### Inherited
+* [PV_Array](../../../Collection/PV_Array.md).includes
 * [Asset](../../Asset.md).hasPart
 * [Asset](../../Asset.md).isPartOf
-* [EquipmentCollection](../../../Collection/AssetCollection/EquipmentCollection/EquipmentCollection.md).includes
+* [EquipmentCollection](../../../Collection/EquipmentCollection.md).includes
+* [Loop](../../../Collection/Loop/Loop.md).includes
+* [System](../../../Collection/System/System.md).includes

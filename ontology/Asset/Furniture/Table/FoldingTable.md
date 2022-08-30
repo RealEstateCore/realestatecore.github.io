@@ -24,4 +24,4 @@
 ### Inherited
 * [Asset](../../Asset.md).hasPart
 * [Asset](../../Asset.md).isPartOf
-* [FurnitureCollection](../../../Collection/AssetCollection/FurnitureCollection.md).includes
+* [FurnitureCollection](../../../Collection/FurnitureCollection.md).includes

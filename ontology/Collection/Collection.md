@@ -10,9 +10,15 @@ An administrative grouping of entities that are adressed and treated as a unit f
 ---
 
 ## Child interfaces
+* [PV_Array](PV_Array.md)
+* [Apartment](Apartment.md)
+* [Campus](Campus.md)
+* [EquipmentCollection](EquipmentCollection.md)
+* [FurnitureCollection](FurnitureCollection.md)
 * [Portfolio](Portfolio.md)
-* [AssetCollection](AssetCollection/AssetCollection.md)
-* [SpaceCollection](SpaceCollection/SpaceCollection.md)
+* [Premises](Premises.md)
+* [Loop](Loop/Loop.md)
+* [System](System/System.md)
 
 ---
 

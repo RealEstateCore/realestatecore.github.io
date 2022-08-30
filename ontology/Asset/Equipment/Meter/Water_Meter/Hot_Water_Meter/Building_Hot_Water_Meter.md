@@ -9,7 +9,7 @@
 ## Relationships
 
 ### Inherited Relationships
-* **[Meter](../../Meter.md):** hasSubMeter, isSubMeterOf
+* **[Meter](../../Meter.md):** hasSubMeter, isSubMeterOf, meters
 * **[Equipment](../../../Equipment.md):** feeds, isFedBy
 * **[Asset](../../../../Asset.md):** commissionedBy, documentation, hasPart, hasPoint, installedBy, isPartOf, locatedIn, manufacturedBy, mountedOn, servicedBy
 
@@ -21,7 +21,7 @@
 |-|-|-|-|-|
 |tags|**en**: Tags|**en**: Brick tags associated with this interface.|array (string)|False|
 ### Inherited Properties
-* **[Meter](../../Meter.md):** isMeteredBy, isVirtualMeter, meters
+* **[Meter](../../Meter.md):** isVirtualMeter
 * **[Equipment](../../../Equipment.md):** operationalStageCount
 * **[Asset](../../../../Asset.md):** assetTag, commissioningDate, customTags, externalIds, geometry, initialCost, installationDate, IPAddress, MACAddress, maintenanceInterval, modelNumber, name, serialNumber, turnoverDate, weight
 
@@ -31,6 +31,8 @@
 ### Inherited
 * [Asset](../../../../Asset.md).hasPart
 * [Asset](../../../../Asset.md).isPartOf
-* [EquipmentCollection](../../../../../Collection/AssetCollection/EquipmentCollection/EquipmentCollection.md).includes
+* [EquipmentCollection](../../../../../Collection/EquipmentCollection.md).includes
+* [Loop](../../../../../Collection/Loop/Loop.md).includes
+* [System](../../../../../Collection/System/System.md).includes
 * [Meter](../../Meter.md).hasSubMeter
 * [Meter](../../Meter.md).isSubMeterOf

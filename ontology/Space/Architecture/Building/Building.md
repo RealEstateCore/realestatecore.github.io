@@ -37,6 +37,7 @@ A confined building structure.
 ### Inherited
 * [Asset](../../../Asset/Asset.md).locatedIn
 * [BuildingElement](../../../BuildingElement/BuildingElement.md).locatedIn
+* [Campus](../../../Collection/Campus.md).includes
+* [Premises](../../../Collection/Premises.md).includes
 * [Space](../../Space.md).hasPart
 * [Space](../../Space.md).isPartOf
-* [Campus](../../../Collection/SpaceCollection/Campus.md).includes

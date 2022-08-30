@@ -50,7 +50,8 @@ A designed/landscaped (or potentially designed/landscaped) part of the physical 
 ## Target Of
 ### Direct
 * [BuildingElement](../../BuildingElement/BuildingElement.md).locatedIn
-* [Campus](../../Collection/SpaceCollection/Campus.md).includes
+* [Campus](../../Collection/Campus.md).includes
+* [Premises](../../Collection/Premises.md).includes
 ### Inherited
 * [Asset](../../Asset/Asset.md).locatedIn
 * [Space](../Space.md).hasPart
