@@ -44,10 +44,8 @@ docs:
         url: /docs/guides/spatial/
       - title: "Sensor readings"
         url: /docs/guides/sensor/
-      - title: "Asset modelling"
-        url: /docs/guides/assets/
-      - title: "HVAC modelling"
-        url: /docs/guides/hvac/
+      - title: "Asset & HVAC modelling"
+        url: /docs/guides/assets_hvac/
       - title: "Energy metering"
         url: /docs/guides/energy/
       - title: "Tenant modelling"
