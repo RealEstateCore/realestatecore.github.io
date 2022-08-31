@@ -24,7 +24,7 @@ Before submitting contributions, it is most helpful to check in with the communi
 If you wish to contribute, please note also:
 
 * RealEstateCore uses the [BSD license](https://opensource.org/licenses/BSD-3-Clause). By contributing to RealEstateCore you recognize that any contributions will be assigned this same license.
-* We reus the [Brick Schema](https://brickschema.org/) Point and Equipment hierarchy; if your contributions concern these parts of the model hierarchy, we ask that you please direct them toward the upstream Brick Schema project instead. Once they are merged there, we can incorporate them when updating our dependencies to the latest Brick release.
+* We reuse the [Brick Schema](https://brickschema.org/) Point and Equipment hierarchy; if your contributions concern these parts of the model hierarchy, we ask that you please direct them toward the upstream Brick Schema project instead. Once they are merged there, we can incorporate them when updating our dependencies to the latest Brick release.
 * We deliver both DTDL and SHACL versions of RealEstateCore. We focus development efforts on the DTDL models, and generate SHACL models via translation (by hand or automation); contributions to the DTDL models are easier for us to work with, pull requests targeting the SHACL models may require more effort to integrate.
 
 #### Bug reports
