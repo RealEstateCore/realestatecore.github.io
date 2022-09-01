@@ -46,7 +46,5 @@ docs:
         url: /docs/guides/sensor/
       - title: "Asset & HVAC modelling"
         url: /docs/guides/assets_hvac/
-      - title: "Energy metering"
-        url: /docs/guides/energy/
       - title: "Tenant modelling"
         url: /docs/guides/tenant/

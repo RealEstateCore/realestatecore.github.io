@@ -1,0 +1,50 @@
+# Namespaces
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rec: <https://w3id.org/rec#> .
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix : <https://example.com#> .
+
+# Type declarations.
+# Spaces
+:CostelloHeights    rdf:type        rec:Building        .
+:LowerFloor         rdf:type        rec:Level           .
+:UpperFloor         rdf:type        rec:Level           .
+:EntranceHall       rdf:type        rec:Room            .
+:MaintenanceRoom    rdf:type        rec:Room            .
+:HVACZone1          rdf:type        rec:HVACZone        .
+
+# Assets
+:EntranceCeilingLight   rdf:type    brick:Luminarie     .
+:EntranceDoor           rdf:type    rec:Door            .
+:AHU_Lower              rdf:type    brick:AHU           .
+:VAV1                   rdf:type    brick:Variable_Air_Volume_Box   .
+:Damp1                  rdf:type    brick:Damper        .
+
+# Spatial topology
+:CostelloHeights    rec:hasPart     :LowerFloor         .
+:CostelloHeights    rec:hasPart     :UpperFloor         .
+:LowerFloor         rec:hasPart     :EntranceHall       .
+:LowerFloor         rec:hasPart     :MaintenanceRoom    .
+:HVACZone1          rec:hasPart     :EntranceHall       .
+:HVACZone1          rec:hasPart     :MaintenanceRoom    .
+
+# Asset placement
+:EntranceCeilingLight   rec:locatedIn      :EntranceHall      .
+:EntranceDoor           rec:locatedIn      :EntranceHall      .
+:AHU_Lower              rec:locatedIn      :MaintenanceRoom   .
+
+# Equipment feeds and parthood
+:AHU_Lower  brick:feeds     :VAV1       .
+:VAV1       brick:feeds     :HVACZone1  .
+:VAV1       rec:hasPart     :Damp1      .
+
+# Points
+:SATS1      rdf:type            brick:Supply_Air_Temperature_Sensor .
+:POS1       rdf:type            brick:Position_Command              .
+:VAV1       brick:hasPoint      :SATS1                              .
+:Damp1      brick:hasPoint      :POS1                               .
+
+# Door values
+:EntranceDoor     rec:installationDate   "2022-08-27"^^xsd:date         .
+:EntranceDoor     rec:modelNuber         "UltraDoor5000"^^xsd:string    .
