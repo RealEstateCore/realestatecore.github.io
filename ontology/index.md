@@ -4,7 +4,7 @@ title: Ontology Type Index
 
 This index lists top-level RealEstateCore types and 2-3 levels of their descendants. From each listed type's page, you can navigate further down among its child types. 
 
-For an index of the entire inheritance tree (much larger), see the [Full Type Index](index.full/).
+For an index of the entire inheritance tree (much larger), see the [Full Type Index](index.full.md).
 
 # Interface Index
 * [Agent](Agent/Agent.md)
