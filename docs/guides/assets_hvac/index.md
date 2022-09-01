@@ -2,7 +2,7 @@
 title: Asset & HVAC modelling
 ---
 
-This guide continues building on our previous [Spatial](../spatial/index.md) and [Sensor](../sensor/index.md) modelling guides; to get the most out of it, please skim those guides first.
+This guide continues building on our previous [Spatial](../spatial/) and [Sensor](../sensor/) modelling guides; to get the most out of it, please skim those guides first.
 
 In this continued scenario, the owner of the *Costello Heights* building wants their digital twin to include assets mounted inside the building. This includes equipment mounted in public areas, to keep track of installation and replacement dates, model and serial numbers, staff responsible for installation/maintenance, etc; but also HVAC equipment that service the building, and the interconnections between that equipment. The latter might enable automation of settings and other operations, and also allows querying for which areas will be affected by maintenance work and other disruptions.
 
@@ -15,29 +15,32 @@ For simplicity, the scenario is very small; it consists of:
 
 In addition to the types from the previous two guides, this modelling task will include:
 
-* [Asset](/ontology/Asset/Asset.md)
-    * [Equipment](/ontology/Asset/Equipment/Equipment.md)
-        * [Lighting Equipment](/ontology/Asset/Equipment/Lighting_Equipment/Lighting_Equipment.md) > [Lighting](/ontology/Asset/Equipment/Lighting_Equipment/Lighting/Lighting) > [Luminaire](/ontology/Asset/Equipment/Lighting_Equipment/Lighting/Luminaire.md)
-        * [HVAC Equipment](/ontology/Asset/Equipment/HVAC_Equipment/HVAC_Equipment.md)
-            * [AHU](/ontology/Asset/Equipment/HVAC_Equipment/AHU/AHU.md)
-            * [Terminal_Unit](/ontology/Asset/Equipment/HVAC_Equipment/Terminal_Unit/Terminal_Unit.md) > [Variable_Air_Volume_Box](/ontology/Asset/Equipment/HVAC_Equipment/Terminal_Unit/Variable_Air_Volume_Box/Variable_Air_Volume_Box.md)
-            * [Damper](/ontology/Asset/Equipment/HVAC_Equipment/Damper/Damper.md)
-    * [Architectural Asset](/ontology/Asset/ArchitecturalAsset/ArchitecturalAsset.md) > [Barrier Asset](/ontology/Asset/ArchitecturalAsset/BarrierAsset/BarrierAsset.md) > [Door](/ontology/Asset/ArchitecturalAsset/BarrierAsset/Door.md)
-* [Space](/ontology/Space/Space.md)
-    * [Architecture](/ontology/Space/Architecture/Architecture.md) > [Zone](/ontology/Space/Architecture/Zone/Zone.md) > [HVACZone](/ontology/Space/Architecture/Zone/HVACZone.md)
+* [Asset](/ontology/Asset/Asset)
+    * [Equipment](/ontology/Asset/Equipment/Equipment)
+        * [Lighting Equipment](/ontology/Asset/Equipment/Lighting_Equipment/Lighting_Equipment) > [Lighting](/ontology/Asset/Equipment/Lighting_Equipment/Lighting/Lighting) > [Luminaire](/ontology/Asset/Equipment/Lighting_Equipment/Lighting/Luminaire)
+        * [HVAC Equipment](/ontology/Asset/Equipment/HVAC_Equipment/HVAC_Equipment)
+            * [AHU](/ontology/Asset/Equipment/HVAC_Equipment/AHU/AHU)
+            * [Terminal_Unit](/ontology/Asset/Equipment/HVAC_Equipment/Terminal_Unit/Terminal_Unit) > [Variable_Air_Volume_Box](/ontology/Asset/Equipment/HVAC_Equipment/Terminal_Unit/Variable_Air_Volume_Box/Variable_Air_Volume_Box)
+            * [Damper](/ontology/Asset/Equipment/HVAC_Equipment/Damper/Damper)
+    * [Architectural Asset](/ontology/Asset/ArchitecturalAsset/ArchitecturalAsset) > [Barrier Asset](/ontology/Asset/ArchitecturalAsset/BarrierAsset/BarrierAsset) > [Door](/ontology/Asset/ArchitecturalAsset/BarrierAsset/Door)
+* [Space](/ontology/Space/Space)
+    * [Architecture](/ontology/Space/Architecture/Architecture) > [Zone](/ontology/Space/Architecture/Zone/Zone) > [HVACZone](/ontology/Space/Architecture/Zone/HVACZone)
+* [Point](/ontology/Point/Point)
+    * [Sensor](/ontology/Point/Sensor/Sensor) > [Temperature_Sensor](/ontology/Point/Sensor/Temperature_Sensor/Temperature_Sensor) > [Air Temperature Sensor](/ontology/Point/Sensor/Temperature_Sensor/Air_Temperature_Sensor/Air_Temperature_Sensor) > [Supply Air Temperature Sensor](/ontology/Point/Sensor/Temperature_Sensor/Air_Temperature_Sensor/Supply_Air_Temperature_Sensor/Supply_Air_Temperature_Sensor)
+    * [Command](/ontology/Point/Command/Command) > [Position Command](/ontology/Point/Command/Position_Command/Position_Command)
 
 ## Relationships and Properties used
 
 In addition to the Relationships and Properties that were already used in the previous guides, we now add:
 
-* [Asset](/ontology/Asset/Asset.md).locatedIn -- Placing Assets, whether equipment systems or individual furniture/architectural assets, into the spatial topology. In this case, used to represent the placement of the door, luminarie, and AHU.
-* [Asset](/ontology/Asset/Asset.md).hasPart -- Used to represent parthood within an Asset; in this case, that a VAV box contains within it a specific Damper.
-* [Equipment](/ontology/Asset/Equipment/Equipment.md).feeds -- Used to describe interconnectedness of Equipment with other Equipment and with Spaces in the building; in this case, the feeding of air from an AHU through a VAV box and into a designated HVAC zone.
+* [Asset](/ontology/Asset/Asset).locatedIn -- Placing Assets, whether equipment systems or individual furniture/architectural assets, into the spatial topology. In this case, used to represent the placement of the door, luminarie, and AHU.
+* [Asset](/ontology/Asset/Asset).hasPart -- Used to represent parthood within an Asset; in this case, that a VAV box contains within it a specific Damper.
+* [Equipment](/ontology/Asset/Equipment/Equipment).feeds -- Used to describe interconnectedness of Equipment with other Equipment and with Spaces in the building; in this case, the feeding of air from an AHU through a VAV box and into a designated HVAC zone.
 
 ### Properties
 
-* [Asset](/ontology/Asset/Asset.md).installationDate
-* [Asset](/ontology/Asset/Asset.md).modelNumber
+* [Asset](/ontology/Asset/Asset).installationDate
+* [Asset](/ontology/Asset/Asset).modelNumber
 
 ## Graphical representation
 
