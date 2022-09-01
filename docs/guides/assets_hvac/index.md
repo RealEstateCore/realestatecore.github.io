@@ -2,7 +2,7 @@
 title: Asset & HVAC modelling
 ---
 
-This guide continues building on our previous [Spatial](../spatial/) and [Sensor](../sensor/) modelling guides; to get the most out of it, please skim those guides first.
+This guide continues building on our previous [Spatial](../spatial/) and [Sensor](../sensor/) modelling guides; to get the most out of it, please skim those guides first. The guide also borrows heavily from our friends at the [Brick Schema](https://docs.brickschema.org/) consortium, and [their guide describing HVAC systems](https://docs.brickschema.org/modeling/collections.html).
 
 In this continued scenario, the owner of the *Costello Heights* building wants their digital twin to include assets mounted inside the building. This includes equipment mounted in public areas, to keep track of installation and replacement dates, model and serial numbers, staff responsible for installation/maintenance, etc; but also HVAC equipment that service the building, and the interconnections between that equipment. The latter might enable automation of settings and other operations, and also allows querying for which areas will be affected by maintenance work and other disruptions.
 
