@@ -1,0 +1,66 @@
+# Namespaces
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rec: <https://w3id.org/rec#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix : <https://example.com#> .
+
+# Type declarations. 
+# Spaces
+:CostelloHeights    rdf:type        rec:Building        .
+:LowerFloor         rdf:type        rec:Level           .
+:UpperFloor         rdf:type        rec:Level           .
+:AtticFloor         rdf:type        rec:Level           .
+:120                rdf:type        rec:Room            .
+:121                rdf:type        rec:Room            .
+:122                rdf:type        rec:Room            .
+:123                rdf:type        rec:Room            .
+:124                rdf:type        rec:Room            .
+
+# Apartments and leases
+:Apartment1         rdf:type        rec:Apartment       .
+:Apartment2         rdf:type        rec:Apartment       .
+:Lease1             rdf:type        rec:Lease           .
+:Lease2             rdf:type        rec:Lease           .
+:UpperFloorLease    rdf:type        rec:Lease           .
+:AtticLease         rdf:type        rec:Lease           .
+
+# Agents
+:CostelloRealEstate rdf:type        rec:Company         .
+:Initech            rdf:type        rec:Company         .
+:LumberghInc        rdf:type        rec:Company         .
+:JohnDoe            rdf:type        rec:Person          .
+:JaneDoe            rdf:type        rec:Person          .
+
+# Spatial topology & apartment inclusion
+:CostelloHeights    rec:hasPart     :LowerFloor     .
+:CostelloHeights    rec:hasPart     :UpperFloor     .
+:CostelloHeights    rec:hasPart     :AtticFloor     .
+:LowerFloor         rec:hasPart     :120            .
+:LowerFloor         rec:hasPart     :121            .
+:LowerFloor         rec:hasPart     :122            .
+:LowerFloor         rec:hasPart     :123            .
+:LowerFloor         rec:hasPart     :124            .
+:Apartment1         rec:includes    :120            .
+:Apartment1         rec:includes    :121            .
+:Apartment2         rec:includes    :122            .
+:Apartment2         rec:includes    :123            .
+:Apartment2         rec:includes    :124            .
+
+# Lease relations
+:Lease1             rec:leasor      :CostelloRealEstate     .
+:Lease1             rec:leasee      :JohnDoe                .
+:Lease1             rec:leaseOf     :Apartment1             .
+:Lease2             rec:leasor      :CostelloRealEstate     .
+:Lease2             rec:leasee      :JaneDoe                .
+:Lease2             rec:leaseOf     :Apartment2             .
+:UpperFloorLease    rec:leasor      :CostelloRealEstate     .
+:UpperFloorLease    rec:leasee      :Initech                .
+:UpperFloorLease    rec:leaseOf     :UpperFloor             .
+:AtticLease         rec:leasor      :CostelloRealEstate     .
+:AtticLease         rec:leasee      :LumberghInc            .
+:AtticLease         rec:leaseOf     :AtticFloor             .
+
+# Lease durations
+:Lease2             rec:start       "2022-01-01T08:00:00Z"^^xsd:dateTime        .
+:AtticLease         rec:start       "2015-07-01T08:00:00Z"^^xsd:dateTime        .
+:AtticLease         rec:end         "2022-12-31T23:59:59Z"^^xsd:dateTime        .
