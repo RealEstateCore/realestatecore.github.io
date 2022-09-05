@@ -313,6 +313,7 @@ title: Full Type Index
     * [Portfolio](Collection/Portfolio.md)
     * [Premises](Collection/Premises.md)
     * [PV_Array](Collection/PV_Array.md)
+    * [RealEstate](Collection/RealEstate.md)
     * [System](Collection/System/System.md)
         * [Domestic_Hot_Water_System](Collection/System/Domestic_Hot_Water_System.md)
         * [Electrical_System](Collection/System/Electrical_System/Electrical_System.md)
@@ -1569,4 +1570,3 @@ title: Full Type Index
             * [ParkingSpace](Space/Architecture/Zone/ParkingSpace.md)
             * [Workspace](Space/Architecture/Zone/Workspace.md)
     * [Region](Space/Region.md)
-    

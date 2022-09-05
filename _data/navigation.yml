@@ -17,25 +17,25 @@ docs:
       - title: "RealEstateCore Structure"
         url: /docs/structure/
       - title: "DTDL or SHACL"
-        url: /docs/DTDL-or-SHACL/
+        url: /docs/DTDL-or-SHACL
       - title: "Software Platforms"
         url: /docs/platforms/
 
   - title: APIs
     children:
       - title: "REST API"
-        url: /docs/API/REST/
+        url: /docs/API/REST
       - title: "Edge Messages"
-        url: /docs/API/Edge/
+        url: /docs/API/Edge
 
   - title: Tools
     children:
       - title: "SHACL2DTDL"
-        url: /docs/tools/SHACL2DTDL/
+        url: /docs/tools/SHACL2DTDL
       - title: "DTDL2OAS"
-        url: /docs/tools/DTDL2OAS/
+        url: /docs/tools/DTDL2OAS
       - title: "DTDL2MD"
-        url: /docs/tools/DTDL2MD/
+        url: /docs/tools/DTDL2MD
 
   - title: Guides
     url: /docs/guides/
