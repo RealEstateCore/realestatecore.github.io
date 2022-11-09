@@ -7,7 +7,7 @@ permalink: /resources/
 
 The RealEstateCore ontology is released in the both [DTDL (Digital Twin Definition Language)](https://github.com/Azure/opendigitaltwins-dtdl)  and [SHACL (Shapes Constraint Language)](https://www.w3.org/TR/shacl/) languages, for broadest availability across technology stacks. For a discussion on the differences and tradeoffs between these versions, see the documentation page [DTDL or SHACL](/docs/DTDL-or-SHACL/).
 
-* DTDL: [DTDLv2](https://github.com/RealEstateCore/rec/tree/main/Source/DTDLv2)
+* [DTDLv2](https://github.com/RealEstateCore/rec/tree/main/Source/DTDLv2)
 * [SHACL](https://github.com/RealEstateCore/REC4/tree/main/Source/SHACL)
 
 ## API Definitions
