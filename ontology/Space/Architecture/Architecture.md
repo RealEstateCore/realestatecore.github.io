@@ -10,12 +10,12 @@ A designed/landscaped (or potentially designed/landscaped) part of the physical 
 ---
 
 ## Child interfaces
-* [OutdoorSpace](OutdoorSpace.md)
-* [Site](Site.md)
-* [SubBuilding](SubBuilding.md)
 * [Building](Building/Building.md)
 * [Level](Level/Level.md)
+* [OutdoorSpace](OutdoorSpace.md)
 * [Room](Room/Room.md)
+* [Site](Site.md)
+* [SubBuilding](SubBuilding.md)
 * [Zone](Zone/Zone.md)
 
 ---
@@ -26,8 +26,6 @@ A designed/landscaped (or potentially designed/landscaped) part of the physical 
 |-|-|-|-|
 |area|**en**: area||[ArchitectureArea](../../Information/ArchitectureArea.md)|
 |capacity|**en**: capacity||[ArchitectureCapacity](../../Information/ArchitectureCapacity.md)|
-### Inherited Components
-* **[Space](../Space.md):** georeference
 
 ---
 
@@ -47,18 +45,33 @@ A designed/landscaped (or potentially designed/landscaped) part of the physical 
 |operatedBy|**en**: operated by||0-Infinity|[Agent](../../Agent/Agent.md)||True|
 |ownedBy|**en**: owned by||0-Infinity|[Agent](../../Agent/Agent.md)||True|
 ### Inherited Relationships
-* **[Space](../Space.md):** hasPart, isLocationOf, isPartOf
+* **[Space](../Space.md):** geometry, georeference, hasPart, isLocationOf, isPartOf
 
 ---
 
 ## Properties
 
 ### Inherited Properties
-* **[Space](../Space.md):** customTags, externalIds, geometry, name
+* **[Space](../Space.md):** customTags, externalIds, name
 
 ---
 
 ## Target Of
+### General
+* [Point](../../Point/Point.md).isPointOf
+* [Agent](../../Agent/Agent.md).owns
+* [Space](../Space.md).isLocationOf
+* [Equipment](../../Asset/Equipment/Equipment.md).feeds
+* [Equipment](../../Asset/Equipment/Equipment.md).isFedBy
+* [Architecture](#).isFedBy
+* [Document](../../Information/Document/Document.md).documentTopic
+* [Document](../../Information/Document/Document.md).url
+* [EquipmentCollection](../../Collection/Equipment-.md).feeds
+* [Lease](../../Event/Lease.md).leaseOf
+* [PointOfInterest](../../Information/PointOfInterest.md).objectOfInterest
+* [Portfolio](../../Collection/Portfolio.md).includes
+* [ServiceObject](../../Information/ServiceObject/ServiceObject.md).relatedTo
+* [Meter](../../Asset/Equipment/Meter/Meter.md).meters
 ### Direct
 * [BuildingElement](../../BuildingElement/BuildingElement.md).locatedIn
 * [Campus](../../Collection/Campus.md).includes

@@ -10,9 +10,9 @@ The level of a building, a.k.a. storey, floor, etc.
 ---
 
 ## Child interfaces
-* [BasementLevel](BasementLevel.md)
-* [MezzanineLevel](MezzanineLevel.md)
-* [RoofLevel](RoofLevel.md)
+* [BasementLevel](Basement-.md)
+* [MezzanineLevel](Mezzanine-.md)
+* [RoofLevel](Roof-.md)
 
 ---
 
@@ -20,7 +20,6 @@ The level of a building, a.k.a. storey, floor, etc.
 
 ### Inherited Components
 * **[Architecture](../Architecture.md):** area, capacity
-* **[Space](../../Space.md):** georeference
 
 ---
 
@@ -28,7 +27,7 @@ The level of a building, a.k.a. storey, floor, etc.
 
 ### Inherited Relationships
 * **[Architecture](../Architecture.md):** address, adjacentElement, architectedBy, constructedBy, containsElement, documentation, hasPoint, intersectingElement, isFedBy, operatedBy, ownedBy
-* **[Space](../../Space.md):** hasPart, isLocationOf, isPartOf
+* **[Space](../../Space.md):** geometry, georeference, hasPart, isLocationOf, isPartOf
 
 ---
 
@@ -38,11 +37,26 @@ The level of a building, a.k.a. storey, floor, etc.
 |-|-|-|-|-|
 |levelNumber|**en**: level number|**en**: A number indicating the ordinal number of this level within the containing space (typically a Building or in the case of a Mezzanine, sometimes another level). Note that the implementation of this numbering scheme and its starting point is implementation-specific; e.g., the fifth floor below ground may be 0 in some systems, and -5 in others.|integer|True|
 ### Inherited Properties
-* **[Space](../../Space.md):** customTags, externalIds, geometry, name
+* **[Space](../../Space.md):** customTags, externalIds, name
 
 ---
 
 ## Target Of
+### General
+* [Point](../../../Point/Point.md).isPointOf
+* [Agent](../../../Agent/Agent.md).owns
+* [Space](../../Space.md).isLocationOf
+* [Equipment](../../../Asset/Equipment/Equipment.md).feeds
+* [Equipment](../../../Asset/Equipment/Equipment.md).isFedBy
+* [Architecture](../Architecture.md).isFedBy
+* [Document](../../../Information/Document/Document.md).documentTopic
+* [Document](../../../Information/Document/Document.md).url
+* [EquipmentCollection](../../../Collection/Equipment-.md).feeds
+* [Lease](../../../Event/Lease.md).leaseOf
+* [PointOfInterest](../../../Information/PointOfInterest.md).objectOfInterest
+* [Portfolio](../../../Collection/Portfolio.md).includes
+* [ServiceObject](../../../Information/ServiceObject/ServiceObject.md).relatedTo
+* [Meter](../../../Asset/Equipment/Meter/Meter.md).meters
 ### Inherited
 * [Asset](../../../Asset/Asset.md).locatedIn
 * [BuildingElement](../../../BuildingElement/BuildingElement.md).locatedIn
