@@ -18,7 +18,7 @@
 
 |Name|Display name|Description|Schema|Writable|
 |-|-|-|-|-|
-|coordinateSystem|**en**: coordinate system||enum (LocalCoordinates, WGS84, SWEREF99)|True|
+|coordinateSystem|**en**: coordinate system||enum (LocalCoordinates, SWEREF99, WGS84)|True|
 ### Inherited Properties
 * **[Information](../Information.md):** customProperties, customTags, identifiers, name
 
@@ -34,7 +34,6 @@
 * [Architecture](../../Space/Architecture/Architecture.md).isFedBy
 * [Document](../Document/Document.md).documentTopic
 * [Document](../Document/Document.md).url
-* [EquipmentCollection](../../Collection/Equipment-.md).feeds
 * [Lease](../../Event/Lease.md).leaseOf
 * [PointOfInterest](../PointOfInterest.md).objectOfInterest
 * [Portfolio](../../Collection/Portfolio.md).includes

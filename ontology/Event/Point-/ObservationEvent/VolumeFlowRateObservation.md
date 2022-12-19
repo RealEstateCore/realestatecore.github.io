@@ -1,7 +1,7 @@
 [Index](../../../index.md) > [Event](../../Event.md) > [PointEvent](../PointEvent.md) > [ObservationEvent](ObservationEvent.md) > [VolumeFlowRateObservation](#)
 # VolumeFlowRateObservation
 
-**Display name:** Volume flow observation<br />
+**Display name:** Volume flow rate observation<br />
 **DTMI:** dtmi:org:w3id:rec:VolumeFlowRateObservation;1
 
 ---
@@ -34,7 +34,6 @@
 * [Architecture](../../../Space/Architecture/Architecture.md).isFedBy
 * [Document](../../../Information/Document/Document.md).documentTopic
 * [Document](../../../Information/Document/Document.md).url
-* [EquipmentCollection](../../../Collection/Equipment-.md).feeds
 * [Lease](../../Lease.md).leaseOf
 * [PointOfInterest](../../../Information/PointOfInterest.md).objectOfInterest
 * [Portfolio](../../../Collection/Portfolio.md).includes
