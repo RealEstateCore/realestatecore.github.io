@@ -12,7 +12,7 @@ The RealEstateCore ontology is released in the both [DTDL (Digital Twin Definiti
 
 ## API Definitions
 
-* [OpenAPI (Swagger) specification](https://raw.githubusercontent.com/RealEstateCore/rec/main/API/REST/REC4API.yaml) -- [Documentation](/docs/API/REST) -- This RESTful API specifices how clients and other systems can create, read, update, and delete entities in a RealEstateCore-based smart building platform.
+* [OpenAPI (Swagger) specification](https://raw.githubusercontent.com/RealEstateCore/rec/main/API/REST/RealEstateCore.Ontology.DTDLv2.yaml) -- [Documentation](/docs/API/REST) -- This RESTful API specifices how clients and other systems can create, read, update, and delete entities in a RealEstateCore-based smart building platform.
 * [Edge message specification](https://raw.githubusercontent.com/RealEstateCore/rec/main/API/Edge/edge_message.schema.json) -- [Documentation](/docs/API/Edge) -- Our southbound format, enabling battery- or bandwidth-constrained edge devices to communicate sensor readings, commands, alerts, etc. upward into a RealEstateCore-based platform. 
 
 ## Software
