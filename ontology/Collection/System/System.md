@@ -25,7 +25,7 @@ A System is a combination of equipment and auxiliary devices (e.g., controls, ac
 
 |Name|Display name|Description|Multiplicity|Target|Properties|Writable|
 |-|-|-|-|-|-|-|
-|includes|**en**: includes||0-Infinity|[Equipment](../../Asset/Equipment/Equipment.md)||True|
+|includes|**en**: includes||0-Infinity|||True|
 ### Inherited Relationships
 * **[Collection](../Collection.md):** documentation
 
@@ -45,6 +45,7 @@ A System is a combination of equipment and auxiliary devices (e.g., controls, ac
 * [Space](../../Space/Space.md).isLocationOf
 * [Equipment](../../Asset/Equipment/Equipment.md).feeds
 * [Equipment](../../Asset/Equipment/Equipment.md).isFedBy
+* [System](#).includes
 * [Architecture](../../Space/Architecture/Architecture.md).isFedBy
 * [Document](../../Information/Document/Document.md).documentTopic
 * [Document](../../Information/Document/Document.md).url
